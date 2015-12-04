@@ -1,0 +1,50 @@
+{
+  "name": "useref-cli",
+  "version": "1.0.0",
+  "description": "useref for the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "useref": "./bin/useref.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimon2000/useref-cli.git"
+  },
+  "keywords": [
+    "useref",
+    "replace",
+    "link",
+    "blocks",
+    "build",
+    "ref"
+  ],
+  "author": "Ryan Edge <chimon@my.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chimon2000/useref-cli/issues"
+  },
+  "homepage": "https://github.com/chimon2000/useref-cli#readme",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es6": true
+    }
+  },
+  "devDependencies": {
+    "ava": "^0.7.0",
+    "tape": "^4.2.2",
+    "tape-catch": "^1.0.4"
+  },
+  "dependencies": {
+    "clor": "^2.0.0",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.2",
+    "glob": "^6.0.1",
+    "glob-parent": "^2.0.0",
+    "useref": "^1.1.0"
+  }
+}
