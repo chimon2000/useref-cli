@@ -27,3 +27,8 @@ Usage: useref <source file, directory, or pattern> <destination directory> [opti
 * [glob-parent](https://github.com/es128/glob-parent)
 * [fs-extra](https://github.com/jprichardson/node-fs-extra)
 * [clor](https://github.com/bucaran/clor)
+
+## Roadmap
+- [ ] Change destination from required to optional
+- [ ] Chaining support (similar to UglifyJS)
+- [ ] Add options for useref
